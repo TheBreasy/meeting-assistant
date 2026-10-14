@@ -1,0 +1,33 @@
+{
+  "name": "Client Meeting (Me / Client actions)",
+  "description": "Concise notes with action items split between me and the client.",
+  "sections": [
+    {
+      "title": "Summary",
+      "instruction": "Three to five sentences on the purpose of the meeting and what was decided",
+      "format": "paragraph"
+    },
+    {
+      "title": "Key Points",
+      "instruction": "Only the important points: decisions, requirements, numbers, dates and open questions. Skip small talk",
+      "format": "list"
+    },
+    {
+      "title": "My Action Items",
+      "instruction": "Tasks I (the person recording) committed to or was asked to do, with due date if mentioned",
+      "format": "list",
+      "item_format": "| **Action** | **Due** | **Context** |\n| --- | --- | --- |"
+    },
+    {
+      "title": "Client Action Items",
+      "instruction": "Tasks the client committed to or that we are waiting on from the client, with owner and due date if mentioned",
+      "format": "list",
+      "item_format": "| **Action** | **Owner** | **Due** |\n| --- | --- | --- |"
+    },
+    {
+      "title": "Open Questions",
+      "instruction": "Unresolved questions and who needs to answer them",
+      "format": "list"
+    }
+  ]
+}
